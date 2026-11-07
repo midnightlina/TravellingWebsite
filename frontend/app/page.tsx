@@ -12,6 +12,7 @@ export default function Home() {
           priority
           className="rounded-[40px] object-cover"
         />
+        <p>main page</p>
       </div>
     </div>
   );
