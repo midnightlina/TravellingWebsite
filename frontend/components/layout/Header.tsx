@@ -25,7 +25,7 @@ export default function Header() {
         LightTravel
       </Link>
       <div className="flex flex-1 items-center justify-end">
-        <Search className="mr-[15px] w-[18px] h-[18px]"></Search>
+        <Search className="mr-[15px] cursor-pointer w-[18px] h-[18px]"></Search>
         <Link
           href="/login"
           className="flex border-[1px] hover:bg-white border-gray-900 transition-all duration-300 hover:text-gray-900 text-white font-bold bg-gray-900 rounded-xl p-[7px] px-[15px] flex items-center text-sm flex-row"
